@@ -1,0 +1,29 @@
+{
+  "name": "neptune-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.3.15",
+    "@auth0/nextjs-auth0": "^1.2.0",
+    "classnames": "^2.2.6",
+    "graphql": "^15.5.0",
+    "leaflet": "^1.7.1",
+    "leaflet-defaulticon-compatibility": "^0.1.1",
+    "leaflet-geosearch": "^3.2.2",
+    "next": "10.0.9",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-leaflet": "^2.7.0",
+    "react-table": "^7.6.3",
+    "realm-web": "^1.2.1",
+    "twilio": "^3.63.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.37.0"
+  }
+}

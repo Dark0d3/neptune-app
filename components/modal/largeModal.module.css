@@ -1,0 +1,54 @@
+.dashboard_large_modal {
+    position: fixed; 
+    z-index: 500;
+    background-color: white;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 12px;  
+    box-shadow: 1px 1px 1px black;
+    left: 15%;
+    top: 10%; 
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+} 
+
+.dashboard_large_modal__main {
+    position: relative;
+}
+
+.dashboard_large_modal__close {
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    right: -10px;
+    top: -12px;
+    border: none;
+    background-color: transparent;
+    z-index: 2;
+}
+
+.dashboard_large_modal__close__img {
+    height: 24px;
+    width: 24px;
+}
+
+.dashboard_large_modal__close:focus {
+    outline: none;
+}
+
+@media (min-width: 600px) {
+    .dashboard_large_modal {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+
+    .dashboard_large_modal__close {
+        height: 32px;
+        width: 32px;
+    }
+
+    .dashboard_large_modal__close__img {
+        height: 32px;
+        width: 32px;
+    }
+}
